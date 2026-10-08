@@ -23,7 +23,7 @@ img {
 .Bovenbalkje{
   display: grid;
   grid-template-rows: 35px 75px auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-  grid-template-columns: 260px 170px 1px 300px 1px 200px 175px 250px 342px;
+  grid-template-columns: 260px 170px 1px 300px 1px 200px 175px 250px 329px;
 }
 .Bovenbalkje a {
   color: #0000a4;
