@@ -1,0 +1,1885 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+   #prijs1, #prijs2, #prijs3, #prijs4, #prijs5, #prijs6, #prijs7, #prijs8, #prijs9, #prijs10, #prijs11, #prijs12 {
+    height: unset;
+    width: auto;
+}
+.Bovenbalkje{
+  display: grid;
+  grid-template-rows: 35px 75px auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 260px 170px 1px 300px 1px 200px 175px 250px 342px;
+}
+.Bovenbalkje a {
+  color: #0000a4;
+  text-decoration: none;
+  font-size: 11px ;
+  font-family: Arial, Helvetica, sans-serif ;
+  
+  
+}
+.Bovenbalkje .Item {
+  padding-top: 10px;
+}
+
+.item1 {
+   
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.item3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.item4 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 8;
+  grid-column-end: 9;
+  background-color: #f6fff9;
+  margin-left:47px;
+ 
+}
+.item4 a {
+ color: #017649;
+ background: fixed;
+  font-size: 13px;
+  
+}
+.Onderbalk {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 10;
+  background-color: #0000a4;
+  position:relative;
+  z-index:1;
+}
+
+  
+  
+
+.Bologo{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: white !important;
+  font-size: 45px !important;
+  font-family: 'Produkt', Arial, sans-serif;
+  font-weight: bold;
+  align-self: center;
+  position:relative;
+  z-index:10;
+
+}
+
+
+
+.Shopster{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  color:#0000a4;
+  background-color: white;
+  align-self: center;
+  z-index:10;
+  position:relative;
+}
+#Help {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  color:#0000a4;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  align-self: center;
+  font-family: Arial, sans-serif;
+  position:relative;
+  z-index:10;
+  text-decoration: none; 
+  margin-left: 20px;
+}
+
+.Icoonblok{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 8;
+  grid-column-end: 9;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: white;
+  z-index: 10;
+  position:relative;
+  margin-left: 120px;
+}
+  .Welkom{
+    font-family: Arial, sans-serif;
+    line-height: 18px;
+    text-align: right;
+    z-index: 10;
+    position:relative;
+    font-size: 12px;
+  }
+
+.Icono1, .Icono2, .Icono3  {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  z-index: 10;
+  position:relative;
+  
+}
+
+
+.Zoekblok {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  align-self: center;
+  font-family: Arial, sans-serif;
+  position:relative;
+  z-index:10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+#zoektekst {
+font-size: 14;
+color: #666;
+}
+.Vergrootglas {
+  
+  color:#0000a4;
+  width: 22px;
+  height: 22px;
+  z-index: 10;
+  position:relative;
+  flex-shrink: 0;
+}
+.LaatsteBalkImage{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  border-image: auto;
+  z-index: 0;
+  display: block;
+  border-bottom: 1px solid rgb(203, 193, 193);
+  width: 100vw;
+  position:relative;
+}
+.LaatsteLinkjes{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 7;
+  grid-column-end: 10;
+  z-index: 10;
+  position:relative;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  padding-left: 105px;
+ 
+}
+.LaatsteLinkjes a p{
+  margin: 0;
+   color: black;
+   font-size: 11px;
+}
+.LaatsteLinkjes a:hover p {
+  text-decoration: underline;
+}
+#link1 a{
+color:#666;
+}
+#link2 a{
+color:#666;
+}
+#link3 a{
+color:#666;
+}
+#link4 a{
+  color:#666;
+}
+.Banner1 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 10;
+  margin-top: 25px;
+
+}
+.Banner1 img {
+  width: 1180px;
+  height: 1000x;
+  display: block;
+
+}
+.Banner2 {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-top: 35px;
+}
+.Banner3 {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  margin-top: 34px;
+  margin-left: 25px;
+}
+.Banner3 img{
+  width: 175px;
+  height: 226px;
+  
+}
+.Banner4{
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  margin-top: 38px;
+  margin-left: 225px;
+}
+.Banner4 img{
+  width: 175px;
+  height: 222px;
+}
+.Banner5 {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  margin-top: 37px;
+  margin-left: 123px;
+}
+.Banner5 img{
+  width: 175px;
+  height: 223px;
+}
+.Banner6 {
+grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-top: 36px;
+  margin-left: 125px;
+}
+.Banner6 img{
+  width: 175px;
+  height: 223px;
+}
+.Banner7 {
+grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-top: 36px;
+  margin-left: 153px;
+
+}
+.Banner7 img{
+  width: 175px;
+  height: 223px;
+}
+.Banner8 {
+grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  margin-top: 15px;
+
+}
+.Banner8 img{
+  width: 270px;
+  height: 223px;
+}
+.Banner9 {
+grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  margin-top: 14px;
+  margin-left: 120px;
+
+}
+.Banner9 img{
+  width: 280px;
+  height: 236px;
+}
+.Banner10 {
+grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  margin-top: 12px;
+  margin-left: 123px;
+
+}
+.Banner10 img{
+  width: 290px;
+  height: 213px;
+}
+.Banner11 {
+grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 7;
+  grid-column-end: 10;
+  margin-top: 13px;
+  margin-left: 238px;
+
+}
+.Banner11 img{
+  width: 282px;
+  height: 213px;
+}
+.VWJGW{
+grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  margin-top: 13px;
+  font-family: 'Produkt';
+  font-size: 35px;
+}
+.Banner12 {
+grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.Banner12 img{
+  width: 175px;
+  height: 120px;
+}
+
+.Banner12 a :hover{
+  text-decoration: underline;
+}
+
+.Banner12 p {
+ margin-left: 51px;
+ font-family: Arial, sans-serif ;
+  color: black;
+font-size: 18px;
+}
+
+.Banner13 {
+grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  margin-left: 25px;
+
+
+}
+.Banner13 img{
+  width: 175px;
+  height: 120px;
+}
+
+.Banner13 a :hover{
+  text-decoration: underline;
+}
+
+.Banner13 p {
+ margin-left: 57px;
+ font-family: Arial, sans-serif ;
+  color: black;
+font-size: 18px;
+}
+.Banner20 {
+grid-row-start: 9;
+  grid-row-end: 10;
+  grid-column-start: 2;
+  grid-column-end: 10;
+  margin-top: 25px;
+}
+.Banner20 img {
+  width: 1175px;
+  height: 275px;
+}
+.BVIBS{
+grid-row-start: 10;
+  grid-row-end: 11;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-family: 'Produkt';
+  font-size: 35px;
+  margin-bottom: -40px;
+}
+.OJHLNK{
+  grid-row-start: 11;
+  grid-row-end: 12;
+  grid-column-start: 2;
+  grid-column-end: 5;
+ 
+  font-family: Arial, sans-serif ;
+}
+.OJHLNK p {
+   font-size: 14px;
+}
+.Banner14 {
+   grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.Banner14 img{
+  width: 175px;
+  height: 185px;
+}
+.Banner14 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+}
+.Banner14 a :hover{
+  text-decoration: underline;
+}
+.Banner15 {
+grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  margin-top: -3px;
+  margin-left: 30px;
+}
+.Banner15 img{
+  width: 175px;
+  height: 185px;
+}
+.Banner15 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+}
+.Banner15 a :hover{
+  text-decoration: underline;
+}
+.Banner16 {
+grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 5;
+  grid-column-end: 8;
+  margin-left: -75px;
+}
+.Banner16 img{
+  width: 175px;
+  height: 185px;
+}
+.Banner16 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+}
+.Banner16 a :hover{
+  text-decoration: underline;
+}
+.Banner17 {
+grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 5;
+  grid-column-end: 8;
+  margin-left: 125px;
+}
+.Banner17 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner17 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+}
+.Banner17 a :hover{
+  text-decoration: underline;
+}
+.Banner18 {
+  grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-left: 125px;
+  
+}
+.Banner18 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner18 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner18 a :hover{
+  text-decoration: underline;
+  
+}
+.Banner19 {
+  grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-left: 150px;
+  margin-top: -3px;
+}
+.Banner19 img {
+  width: 175px;
+  height: 185px;
+}
+#Prijs1  {
+ width: 115px;
+  height: 35px;
+}
+#Prijs2  {
+ width: 75px;
+  height: 30px;
+}
+#Prijs3  {
+ width: 115px;
+  height: 35px;
+}
+#Prijs4  {
+ width: 115px;
+  height: 60px;
+}
+#Prijs5  {
+ width: 115px;
+  height: 60px;
+}
+.TN {
+  grid-row-start: 13;
+  grid-row-end: 14;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-family: 'Produkt';
+  font-size: 35px;
+}
+.Banner21 {
+   grid-row-start: 14;
+  grid-row-end: 15;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+.Banner21 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner21 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner21 a :hover{
+  text-decoration: underline;
+}
+.Banner22 {
+   grid-row-start: 14;
+  grid-row-end: 15;
+  grid-column-start: 4;
+  grid-column-end: 5;
+   margin-left: 25px;
+   margin-top: -3px;
+}
+.Banner22 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner22 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner22 a :hover{
+  text-decoration: underline;
+}
+.Banner23 {
+   grid-row-start: 14;
+  grid-row-end: 15;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  margin-left: -75px;
+  margin-top: -1px;
+}
+.Banner23 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner23 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner23 a :hover{
+  text-decoration: underline;
+}
+.Banner24 {
+   grid-row-start: 14;
+  grid-row-end: 15;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  margin-left: 130px;
+}
+.Banner24 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner24 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner24 a :hover{
+  text-decoration: underline;
+}
+.Banner25 {
+   grid-row-start: 14;
+  grid-row-end: 15;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-left: 130px;
+}
+.Banner25 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner25 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner25 a :hover{
+  text-decoration: underline;
+}
+.Banner26 {
+   grid-row-start: 14;
+  grid-row-end: 15;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-left:150px;
+  margin-top: -2px;
+}
+.Banner26 img {
+  width: 200px;
+  height: 210px;
+}
+.Banner26 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+   margin-top: -10px;
+}
+.Banner26 a :hover{
+  text-decoration: underline;
+}
+#Prijs6  {
+ width:  150px;
+  height: 40px;
+}
+#Prijs7 {
+ width: 130px;
+  height: 40px;
+}
+#Prijs8  {
+ width: 130px;
+  height: 35px;
+}
+#Prijs9   {
+ width: 140px;
+  height: 50px;
+}
+#Prijs10  {
+ width: 150px;
+  height: 78px;
+}
+#Prijs11  {
+ width: 160px;
+  height: 70px;
+}
+.TD {
+  grid-row-start: 15;
+  grid-row-end: 16;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-family: 'Produkt';
+  font-size: 35px;
+}
+.Banner27 {
+   grid-row-start: 16;
+  grid-row-end: 17;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+.Banner27 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner27 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner27 a :hover{
+  text-decoration: underline;
+}
+.Banner28 {
+   grid-row-start: 16;
+  grid-row-end: 17;
+  grid-column-start: 4;
+  grid-column-end: 5;
+   margin-left: 25px;
+   margin-top: -3px;
+}
+.Banner28 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner28 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner28 a :hover{
+  text-decoration: underline;
+}
+.Banner29 {
+   grid-row-start: 16;
+  grid-row-end: 17;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  margin-left: -75px;
+  margin-top: -1px;
+}
+.Banner29 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner29 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner29 a :hover{
+  text-decoration: underline;
+}
+.Banner30 {
+   grid-row-start: 16;
+  grid-row-end: 17;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  margin-left: 130px;
+}
+.Banner30 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner30 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner30 a :hover{
+  text-decoration: underline;
+}
+.Banner31 {
+   grid-row-start: 16;
+  grid-row-end: 17;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-left: 130px;
+}
+.Banner31 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner31 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+ 
+  
+}
+.Banner31 a :hover{
+  text-decoration: underline;
+}
+.Banner32 {
+   grid-row-start: 16;
+  grid-row-end: 17;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-left:150px;
+  margin-top: -2px;
+}
+.Banner32 img {
+  width: 200px;
+  height: 210px;
+}
+.Banner32 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  margin-top: -10px;
+  
+}
+.Banner32 a :hover{
+  text-decoration: underline;
+}
+#Prijs12  {
+ width:  130px;
+  height: 80px;
+}
+#Prijs13 {
+ width: 130px;
+  height: 40px;
+}
+#Prijs14  {
+ width: 130px;
+  height: 60px;
+}
+#Prijs15   {
+ width: 140px;
+  height:75px;
+}
+#Prijs16  {
+ width: 150px;
+  height: 85px;
+}
+#Prijs17  {
+ width: 160px;
+  height: 100px;
+}
+.MVOM {
+  grid-row-start: 17;
+  grid-row-end: 18;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-family: 'Produkt';
+  font-size: 35px;
+}
+.Banner33 {
+ grid-row-start: 18;
+  grid-row-end: 19;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.Banner33 img {
+  width: 365px;
+  height: 180px;
+}
+.Banner34 {
+ grid-row-start: 18;
+  grid-row-end: 19;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  margin-left: 240px;
+}
+.Banner34 img {
+  width: 365px;
+  height: 180px;
+}
+.Banner35 {
+ grid-row-start: 18;
+  grid-row-end: 19;
+  grid-column-start: 7;
+  grid-column-end: 10;
+  margin-left: 155px;
+}
+.Banner35 img {
+  width: 365px;
+  height: 180px;
+}
+.Banner36 {
+ grid-row-start: 19;
+  grid-row-end: 20;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.Banner36 img {
+
+  width: 170px;
+  height: 230px;
+  margin-top: 30px;
+}
+.Banner37 {
+ grid-row-start: 19;
+  grid-row-end: 20;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  margin-left: 25px;
+}
+.Banner37 img {
+
+  width: 170px;
+  height: 230px;
+  margin-top: 30px;
+}
+.Banner38 {
+ grid-row-start: 19;
+  grid-row-end: 20;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  margin-left: 243px;
+}
+.Banner38 img {
+
+  width: 170px;
+  height: 230px;
+  margin-top: 30px;
+  
+}
+.Banner39 {
+ grid-row-start: 19;
+  grid-row-end: 20;
+  grid-column-start: 5;
+  grid-column-end: 8;
+  margin-left: 135px;
+}
+.Banner39 img {
+
+  width: 170px;
+  height: 230px;
+  margin-top: 30px;
+}
+.Banner40 {
+ grid-row-start: 19;
+  grid-row-end: 20;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  margin-left: 355px;
+}
+.Banner40 img {
+
+  width: 170px;
+  height: 230px;
+  margin-top: 30px;
+}
+.Banner41 {
+ grid-row-start: 19;
+  grid-row-end: 20;
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+.Banner41 img {
+margin-left: 335px;
+  width: 170px;
+  height: 230px;
+  margin-top: 30px;
+}
+.TOPDEALS {
+  grid-row-start: 21;
+  grid-row-end: 22;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-family: 'Produkt';
+  font-size: 35px;
+}
+.Banner42 {
+   grid-row-start: 22;
+  grid-row-end: 23;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+.Banner42 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner42 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner42 a :hover{
+  text-decoration: underline;
+}
+.Banner43 {
+   grid-row-start: 22;
+  grid-row-end: 23;
+  grid-column-start: 4;
+  grid-column-end: 5;
+   margin-left: 25px;
+   margin-top: -3px;
+}
+.Banner43 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner43 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner43 a :hover{
+  text-decoration: underline;
+}
+.Banner44 {
+     grid-row-start: 22;
+  grid-row-end: 23;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  margin-left: -75px;
+  margin-top: -1px;
+}
+.Banner44 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner44 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner44 a :hover{
+  text-decoration: underline;
+}
+.Banner45 {
+     grid-row-start: 22;
+  grid-row-end: 23;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  margin-left: 130px;
+}
+.Banner45 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner45 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner45 a :hover{
+  text-decoration: underline;
+}
+.Banner46 {
+     grid-row-start: 22;
+  grid-row-end: 23;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-left: 130px;
+}
+.Banner46 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner46 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+ 
+  
+}
+.Banner46 a :hover{
+  text-decoration: underline;
+}
+.Banner47 {
+   grid-row-start: 22;
+  grid-row-end: 23;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-left:150px;
+  margin-top: -2px;
+}
+.Banner47 img {
+  width: 200px;
+  height: 210px;
+}
+.Banner47 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  margin-top: -10px;
+  
+}
+.Banner47 a :hover{
+  text-decoration: underline;
+}
+#Prijs18  {
+ width:  130px;
+  height: 80px;
+}
+#Prijs19 {
+ width: 160px;
+  height: 80px;
+}
+#Prijs20  {
+ width: 150px;
+  height: 80px;
+}
+#Prijs21   {
+ width: 150px;
+  height:75px;
+}
+#Prijs22  {
+ width: 150px;
+  height: 85px;
+}
+#Prijs23  {
+ width: 160px;
+  height: 80px;
+}
+.OOF {
+  grid-row-start: 23;
+  grid-row-end: 24;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-family: 'Produkt';
+  font-size: 35px;
+  margin-top: 20px;
+}
+.Banner48 {
+   grid-row-start: 24;
+  grid-row-end: 25;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+.Banner48 img {
+  width: 175px;
+   height: 125px;
+}
+.Banner48 p {
+font-family: Arial, sans-serif ;
+  color: black;
+   font-size: 18px;
+ margin-left: 4px;
+  
+}
+.Banner48 a :hover{
+  text-decoration: underline;
+}
+.Banner49 {
+   grid-row-start: 24;
+  grid-row-end: 25;
+  grid-column-start: 4;
+  grid-column-end: 5;
+   margin-left: 25px;
+   margin-top: -3px;
+}
+.Banner49 img {
+  width: 175px;
+   height: 125px;
+}
+.Banner49 p {
+font-family: Arial, sans-serif ;
+  color: black;
+   font-size: 18px;
+ margin-left: 60px;
+  
+}
+.Banner49 a :hover{
+  text-decoration: underline;
+}
+.Banner50 {
+   grid-row-start: 24;
+  grid-row-end: 25;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  margin-left: -75px;
+  margin-top: -1px;
+}
+.Banner50 img {
+  width: 175px;
+ height: 125px;
+}
+.Banner50 p {
+font-family: Arial, sans-serif ;
+  color: black;
+   font-size: 18px;
+ margin-left: 36px;
+  
+}
+.Banner50 a :hover{
+  text-decoration: underline;
+}
+.Banner51 {
+   grid-row-start: 24;
+  grid-row-end: 25;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  margin-left: 130px;
+}
+.Banner51 img {
+  width: 175px;
+   height: 125px;
+}
+.Banner51 p {
+font-family: Arial, sans-serif ;
+  color: black;
+   font-size: 18px;
+ margin-left: 30px;
+}
+.Banner51 a :hover{
+  text-decoration: underline;
+}
+.Banner52 {
+   grid-row-start: 24;
+  grid-row-end: 25;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-left: 130px;
+}
+.Banner52 img {
+  width: 175px;
+  height: 125px;
+}
+.Banner52 p {
+font-family: Arial, sans-serif ;
+  color: black;
+   font-size: 18px;
+ margin-left: 45px;
+ 
+  
+}
+.Banner52 a :hover{
+  text-decoration: underline;
+}
+.Banner53 {
+   grid-row-start: 24;
+  grid-row-end: 25;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-left:150px;
+  margin-top: -2px;
+}
+.Banner53 img {
+  width: 200px;
+   height: 125px;
+}
+.Banner53 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  margin-top: 15px;
+  font-size: 18px;
+ margin-left: 35px;
+  
+}
+.Banner53 a :hover{
+  text-decoration: underline;
+}
+.Banner54 {
+   grid-row-start: 25;
+  grid-row-end: 26;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.Banner54 img {
+  width: 375px;
+   height: 200px;
+}
+.Banner54 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  margin-top: 15px;
+  font-size: 20px;
+
+}
+.Banner54 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 13px;
+}
+.Banner55 {
+   grid-row-start: 25;
+  grid-row-end: 26;
+  grid-column-start: 4;
+  grid-column-end: 9;
+  margin-left: 230px;
+}
+.Banner55 img {
+  width: 375px;
+   height: 200px;
+}
+.Banner55 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  
+  margin-top: 15px;
+  font-size: 20px;
+ 
+}
+.Banner55 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 13px;
+}
+.CVI{
+  grid-row-start: 26;
+  grid-row-end: 27;
+  grid-column-start: 2;
+  grid-column-end: 5;
+   font-family: 'Produkt';
+  font-size: 35px;
+  margin-top: 20px;
+}
+.Banner56 {
+   grid-row-start: 27;
+  grid-row-end: 28;
+  grid-column-start: 2;
+  grid-column-end: 5;
+ 
+}
+.Banner56 img {
+  width: 280px;
+   height: 160px;
+}
+.Banner56 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  
+  margin-top: 15px;
+  font-size: 20px;
+ 
+}
+.Banner56 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+  margin-left: 25px;
+}
+.Banner56 a :hover{
+  text-decoration: underline;
+}
+.Banner57 {
+   grid-row-start: 27;
+  grid-row-end: 28;
+  grid-column-start: 4;
+  grid-column-end: 7;
+ margin-left: 125px;
+ 
+}
+.Banner57 img {
+  width:280px;
+   height: 160px;
+}
+.Banner57 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  
+  margin-top: 15px;
+  font-size: 20px;
+ 
+}
+.Banner57 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+   margin-left: 55px;
+}
+.Banner57 a :hover{
+  text-decoration: underline;
+}
+.Banner58 {
+   grid-row-start: 27;
+  grid-row-end: 28;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  margin-left: 125px;
+ 
+ 
+}
+.Banner58 img {
+  width: 280px;
+   height: 160px;
+}
+.Banner58 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  
+  margin-top: 15px;
+  font-size: 20px;
+ 
+}
+.Banner58 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+   margin-left:85px;
+}
+.Banner58 a :hover{
+  text-decoration: underline;
+}
+.Banner59 {
+   grid-row-start: 27;
+  grid-row-end: 28;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-left: 50px;
+ 
+}
+.Banner59 img {
+  width: 280px;
+   height: 160px;
+}
+
+
+.Banner59 p{
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 270px;
+  
+}
+.Banner59 a :hover{
+  text-decoration: underline;
+}
+.SDL{
+  grid-row-start: 28;
+  grid-row-end: 29;
+  grid-column-start: 2;
+  grid-column-end: 5;
+   font-family: 'Produkt';
+  font-size: 35px;
+  margin-top: 20px;
+}
+.SDLL {
+  grid-row-start: 28 !important;
+  grid-row-end: 29 !important;
+  grid-column-start: 8 !important;
+  grid-column-end: 10 !important;
+   font-family: 'Produkt' !important;
+  font-size: 15px !important;
+  margin-top: 20px !important;
+  margin-left: 190px;
+}
+.Bovenbalkje .SDLL p{
+font-family: 'Produkt' !important;
+  font-size: 17px !important;
+  margin-top: 50px !important;
+  color:#0054dc;
+  font-family:'Produkt' Arial, sans-serif;
+}
+.SDLL a :hover{
+  text-decoration: underline;
+}
+.Banner60 {
+   grid-row-start: 29;
+  grid-row-end: 30;
+  grid-column-start: 2;
+  grid-column-end: 5;
+ 
+}
+.Banner60 img {
+  width: 160px;
+   height: 160px;
+}
+.Banner60 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  
+  margin-top: 15px;
+  font-size: 20px;
+ 
+}
+.Banner60 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+  margin-left: 55px;
+}
+.Banner60 a :hover{
+  text-decoration: underline;
+}
+.Banner61 {
+   grid-row-start: 29;
+  grid-row-end: 30;
+  grid-column-start: 3;
+  grid-column-end: 6;
+ margin-left: 35px;
+ 
+}
+.Banner61 img {
+  width: 160px;
+   height: 160px;
+}
+.Banner61 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  
+  margin-top: 15px;
+  font-size: 20px;
+ 
+}
+.Banner61 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+ margin-left: 55px;
+}
+.Banner61 a :hover{
+  text-decoration: underline;
+}
+.Banner62 {
+   grid-row-start: 29;
+  grid-row-end: 30;
+  grid-column-start: 4;
+  grid-column-end: 9;
+  margin-left:235px;
+ 
+ 
+}
+.Banner62 img {
+  width: 160px;
+   height: 160px;
+}
+.Banner62 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  
+  margin-top: 15px;
+  font-size: 20px;
+ 
+}
+.Banner62 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+   margin-left: 50px;
+}
+.Banner62 a :hover{
+  text-decoration: underline;
+}
+.Banner63 {
+   grid-row-start: 29;
+  grid-row-end: 30;
+  grid-column-start: 6;
+  grid-column-end: 10;
+  margin-left: 140px;
+ 
+}
+.Banner63 img {
+  width: 160px;
+   height: 160px;
+}
+
+
+.Banner63 p{
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+ 
+  margin-left: 30px;
+  
+}
+.Banner64 {
+   grid-row-start: 29;
+  grid-row-end: 30;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-left: 145px;
+ 
+ 
+}
+.Banner64 img {
+  width: 160px;
+   height: 160px;
+}
+.Banner64 p strong {
+font-family: Arial, sans-serif ;
+  color: black;
+  
+  margin-top: 15px;
+  font-size: 20px;
+ 
+}
+.Banner64 p {
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+   margin-left:35px;
+}
+.Banner64 a :hover{
+  text-decoration: underline;
+}
+.Banner65 {
+   grid-row-start: 29;
+  grid-row-end: 30;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-left: 170px;
+ 
+}
+.Banner65 img {
+  width: 170px;
+   height: 160px;
+}
+
+
+.Banner65 p{
+  font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 18px;
+ 
+  margin-left: 40px;
+}
+.LB {
+  grid-row-start: 31;
+  grid-row-end: 32;
+  grid-column-start: 2;
+  grid-column-end: 5;
+   font-family: 'Produkt';
+  font-size: 35px;
+  margin-top: 20px;
+}
+.Banner66 {
+   grid-row-start: 32;
+  grid-row-end: 33;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+.Banner66 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner66 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner66 a :hover{
+  text-decoration: underline;
+}
+.Banner67 {
+  grid-row-start: 32;
+  grid-row-end: 33;
+  grid-column-start: 4;
+  grid-column-end: 5;
+   margin-left: 25px;
+   
+}
+.Banner67 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner67 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner67 a :hover{
+  text-decoration: underline;
+}
+.Banner68 {
+    grid-row-start: 32;
+  grid-row-end: 33;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  margin-left: -75px;
+  margin-top: -1px;
+}
+.Banner68 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner68 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner68 a :hover{
+  text-decoration: underline;
+}
+.Banner69 {
+  grid-row-start: 32;
+  grid-row-end: 33;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  margin-left: 130px;
+}
+.Banner69 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner69 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  
+}
+.Banner69 a :hover{
+  text-decoration: underline;
+}
+.Banner70 {
+  grid-row-start: 32;
+  grid-row-end: 33;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-left: 130px;
+}
+.Banner70 img {
+  width: 175px;
+  height: 185px;
+}
+.Banner70 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+ 
+  
+}
+.Banner70 a :hover{
+  text-decoration: underline;
+}
+.Banner71 {
+  grid-row-start: 32;
+  grid-row-end: 33;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  margin-left:150px;
+  margin-top: -2px;
+}
+.Banner71 img {
+  width: 200px;
+  height: 210px;
+}
+.Banner71 p {
+font-family: Arial, sans-serif ;
+  color: black;
+  font-size: 14px;
+  margin-top: -10px;
+  
+}
+.Banner71 a :hover{
+  text-decoration: underline;
+}
+#Prijs18  {
+ width:  130px;
+  height: 80px;
+}
+#Prijs19 {
+ width: 160px;
+  height: 80px;
+}
+#Prijs20  {
+ width: 150px;
+  height: 80px;
+}
+#Prijs21   {
+ width: 150px;
+  height:75px;
+}
+#Prijs22  {
+ width: 150px;
+  height: 85px;
+}
+#Prijs23  {
+ width: 160px;
+  height: 80px;
+}
+.OABB {
+  grid-row-start: 33;
+  grid-row-end: 34;
+  grid-column-start: 2;
+  grid-column-end: 5;
+   font-family: 'Produkt';
+  font-size: 35px;
+  margin-top: 20px;
+}
+.Banner72 {
+  grid-row-start: 34;
+  grid-row-end: 35;
+  grid-column-start: 2;
+  grid-column-end: 10;
+ 
+ }
+.Banner72 img {
+  width: 1240px;
+  height: 600px;
+}
+.Banner73 {
+  grid-row-start: 35;
+  grid-row-end: 36;
+  grid-column-start: 1;
+  grid-column-end: 11;
+ 
+ }
+.Banner73 img {
+  width: 1690px;
+  height: 120px;
+}
+.Banner74 {
+  grid-row-start: 36;
+  grid-row-end: 37;
+  grid-column-start: 2;
+  grid-column-end: 10;
+ 
+ }
+.Banner74 img {
+  width: 1200px;
+  height: 400;
+  display: block;
+  border-bottom: 1px solid rgb(203, 193, 193);
+  border-image: auto;
+}
+.Banner75 {
+  grid-row-start: 37;
+  grid-row-end: 38;
+  grid-column-start: 2;
+  grid-column-end: 10;
+ 
+ }
+.Banner75 img {
+  width: 1200px;
+  height: 400;
+  
+}
